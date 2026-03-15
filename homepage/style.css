@@ -44,9 +44,7 @@ body {
 .section {
   padding: 15rem 3rem;
   border-top: 1px solid #ddd;
-  transition:
-    transform 1s,
-    opacity 1s;
+  transition: transform 1s, opacity 1s;
 }
 
 .section--hidden {
@@ -378,24 +376,12 @@ h4 {
   grid-column: 2;
 }
 
-.operations__icon--1 {
-  background-color: var(--color-secondary-opacity);
-}
-.operations__icon--2 {
-  background-color: var(--color-primary-opacity);
-}
-.operations__icon--3 {
-  background-color: var(--color-tertiary-opacity);
-}
-.operations__icon--1 svg {
-  fill: var(--color-secondary-darker);
-}
-.operations__icon--2 svg {
-  fill: var(--color-primary);
-}
-.operations__icon--3 svg {
-  fill: var(--color-tertiary);
-}
+.operations__icon--1 { background-color: var(--color-secondary-opacity); }
+.operations__icon--2 { background-color: var(--color-primary-opacity); }
+.operations__icon--3 { background-color: var(--color-tertiary-opacity); }
+.operations__icon--1 svg { fill: var(--color-secondary-darker); }
+.operations__icon--2 svg { fill: var(--color-primary); }
+.operations__icon--3 svg { fill: var(--color-tertiary); }
 
 /* ── SLIDER ── */
 .slider {
@@ -468,9 +454,7 @@ h4 {
   transition: all 0.5s;
 }
 
-.dots__dot:last-child {
-  margin: 0;
-}
+.dots__dot:last-child { margin: 0; }
 
 .dots__dot--active {
   background-color: #888;
@@ -688,6 +672,7 @@ h4 {
   font-weight: 400;
 }
 
+
 /* ============================================================
    RESPONSIVE BREAKPOINTS
    ============================================================ */
@@ -780,14 +765,14 @@ h4 {
   .header {
     padding: 0 2rem;
     height: auto;
-    min-height: 100vh;
+    min-height: unset;
   }
 
   .header__title {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
-    padding: 8rem 2rem 6rem;
+    padding: 2rem 2rem 4rem;
     row-gap: 2rem;
   }
 
@@ -799,7 +784,7 @@ h4 {
     width: 100%;
     margin: 0 auto;
     order: -1;
-    margin-top: -4rem;
+    margin-top: 0;
     margin-bottom: 3rem;
   }
 
@@ -942,14 +927,14 @@ h4 {
   }
 
   .header__title {
-    padding: 7rem 1rem 5rem;
+    padding: 1.5rem 1rem 3rem;
   }
 
   .header__img {
     width: 100%;
     max-width: 100%;
     border-radius: 0.8rem;
-    margin-top: -3rem;
+    margin-top: 0;
     margin-bottom: 2.5rem;
   }
 

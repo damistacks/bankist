@@ -38,65 +38,69 @@ bankist/
 
 ![License](https://img.shields.io/badge/license-Educational%20Use%20Only-red.svg)
 
-BANKIST — CUSTOM EDUCATIONAL USE LICENSE
+BANKIST - CUSTOM EDUCATIONAL USE LICENSE
 Copyright (c) 2026 Oluwasegun Idowu. All Rights Reserved.
 
-IMPORTANT — PLEASE READ CAREFULLY BEFORE USING THIS SOFTWARE.
+IMPORTANT - PLEASE READ CAREFULLY BEFORE USING THIS SOFTWARE.
 
 This software, Bankist, is a fictitious banking web application created
 strictly for educational and portfolio demonstration purposes. It is NOT
 a real banking product, and it does NOT process, store, or transmit real
 financial data or transactions of any kind.
 
-─────────────────────────────────────────────
+--------------------------------------------------------------------
 PERMITTED USES
-─────────────────────────────────────────────
+--------------------------------------------------------------------
+
 You MAY:
 
-- View and study the source code for personal learning purposes.
-- Fork or clone the repository solely for educational exploration.
-- Reference the code structure in academic or portfolio contexts,
-  provided clear and visible credit is given to the original author.
+  - View and study the source code for personal learning purposes.
+  - Fork or clone the repository solely for educational exploration.
+  - Reference the code structure in academic or portfolio contexts,
+    provided clear and visible credit is given to the original author.
 
-─────────────────────────────────────────────
+--------------------------------------------------------------------
 PROHIBITED USES
-─────────────────────────────────────────────
+--------------------------------------------------------------------
+
 You MAY NOT, under any circumstances:
 
-- Use, adapt, or deploy this software — in whole or in part — to
-  collect, store, process, or transmit real user financial data,
-  banking credentials, PINs, or any personally identifiable information.
-- Impersonate a legitimate financial institution or banking service
-  using this codebase or any derivative of it.
-- Deploy this application to deceive, defraud, phish, or mislead
-  any individual or organisation into believing it is a real bank.
-- Sell, sublicense, or commercially redistribute this software or
-  any modified version of it without the express written permission
-  of the copyright holder.
-- Use this software in any manner that violates applicable financial
-  regulations, consumer protection laws, or cybercrime legislation
-  in any jurisdiction.
+  - Use, adapt, or deploy this software - in whole or in part - to
+    collect, store, process, or transmit real user financial data,
+    banking credentials, PINs, or any personally identifiable information.
+  - Impersonate a legitimate financial institution or banking service
+    using this codebase or any derivative of it.
+  - Deploy this application to deceive, defraud, phish, or mislead
+    any individual or organisation into believing it is a real bank.
+  - Sell, sublicense, or commercially redistribute this software or
+    any modified version of it without the express written permission
+    of the copyright holder.
+  - Use this software in any manner that violates applicable financial
+    regulations, consumer protection laws, or cybercrime legislation
+    in any jurisdiction.
 
-─────────────────────────────────────────────
+--------------------------------------------------------------------
 DISCLAIMER
-─────────────────────────────────────────────
+--------------------------------------------------------------------
+
 THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY, "AS IS",
 WITHOUT WARRANTY OF ANY KIND. THE AUTHOR ACCEPTS NO LIABILITY FOR ANY
-MISUSE, HARM, FINANCIAL LOSS, LEGAL CONSEQUENCE, OR DAMAGE — DIRECT OR
-INDIRECT — ARISING FROM THE UNAUTHORISED OR IRRESPONSIBLE USE OF THIS
+MISUSE, HARM, FINANCIAL LOSS, LEGAL CONSEQUENCE, OR DAMAGE - DIRECT OR
+INDIRECT - ARISING FROM THE UNAUTHORISED OR IRRESPONSIBLE USE OF THIS
 SOFTWARE.
 
 MISUSE OF THIS SOFTWARE TO COMMIT FRAUD, PHISHING, IDENTITY THEFT, OR
 ANY OTHER FINANCIAL CRIME IS A SERIOUS CRIMINAL OFFENCE AND WILL BE
 REPORTED TO THE APPROPRIATE AUTHORITIES.
 
-─────────────────────────────────────────────
+--------------------------------------------------------------------
 ATTRIBUTION
-─────────────────────────────────────────────
+--------------------------------------------------------------------
+
 Any permitted use of this software must retain this license notice in
 full and visibly credit the original author:
 
-Oluwasegun Idowu — https://github.com/damistacks
+  Oluwasegun Idowu - https://github.com/damistacks
 
 By accessing, cloning, or using any part of this repository, you
 acknowledge that you have read, understood, and agree to be bound by

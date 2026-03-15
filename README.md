@@ -7,9 +7,9 @@ bankist/
 ├── index.html           ← Homepage HTML
 ├── login.html           ← Login/App HTML
 ├── homepage/
-│   ├── style.css        ← Homepage styles (needs responsive fixes)
+│   ├── style.css        ← Homepage styles
 │   └── script.js
 └── login/
-    ├── style.css        ← Login/App styles (needs responsive fixes)
+    ├── style.css        ← Login/App styles
     └── script.js
 ```

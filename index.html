@@ -19,15 +19,27 @@
     <header class="header">
       <nav class="nav">
         <a href="index.html">
-        <img
-          src="homepage/img/logo.png"
-          alt="Bankist logo"
-          class="nav__logo"
-          id="logo"
-          designer="Jonas"
-          data-version-number="3.0"
-        /> 
+          <img
+            src="homepage/img/logo.png"
+            alt="Bankist logo"
+            class="nav__logo"
+            id="logo"
+            designer="Jonas"
+            data-version-number="3.0"
+          />
         </a>
+
+        <!-- Hamburger button (visible on tablet/mobile) -->
+        <button
+          class="nav__hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -40,7 +52,8 @@
           </li>
           <li class="nav__item">
             <a class="nav__link btn--show-modal" href="#section--4"
-              >Open Account</a>
+              >Open Account</a
+            >
           </li>
           <li class="nav__item">
             <a class="nav__link nav__link--btn" href="login.html">Login</a>
@@ -49,10 +62,8 @@
       </nav>
 
       <div class="header__title">
-        <!-- <h1 onclick="alert('HTML alert')"> -->
         <h1>
           When
-          <!-- Green highlight effect -->
           <span class="highlight">banking</span>
           meets<br />
           <span class="highlight">minimalist</span>
@@ -314,9 +325,7 @@
 
     <footer class="footer">
       <ul class="footer__nav">
-        <li class="footer__item">
-          <a class="footer__link" href="#">About</a>
-        </li>
+        <li class="footer__item"><a class="footer__link" href="#">About</a></li>
         <li class="footer__item">
           <a class="footer__link" href="#">Pricing</a>
         </li>
@@ -329,9 +338,7 @@
         <li class="footer__item">
           <a class="footer__link" href="#">Careers</a>
         </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Blog</a>
-        </li>
+        <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
         <li class="footer__item">
           <a class="footer__link" href="#">Contact Us</a>
         </li>
@@ -368,6 +375,23 @@
     </div>
     <div class="overlay hidden"></div>
 
-    <!-- <script src="script.js"></script> -->
+    <!-- Hamburger toggle script -->
+    <script>
+      const hamburger = document.querySelector(".nav__hamburger");
+      const navLinks = document.querySelector(".nav__links");
+
+      hamburger.addEventListener("click", () => {
+        const isOpen = navLinks.classList.toggle("nav__links--open");
+        hamburger.setAttribute("aria-expanded", isOpen);
+      });
+
+      // Close menu when a nav link is clicked
+      navLinks.querySelectorAll(".nav__link").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("nav__links--open");
+          hamburger.setAttribute("aria-expanded", false);
+        });
+      });
+    </script>
   </body>
 </html>

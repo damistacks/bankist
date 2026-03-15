@@ -1,21 +1,63 @@
-MIT License
+BANKIST — CUSTOM EDUCATIONAL USE LICENSE
+Copyright (c) 2026 Oluwasegun Idowu. All Rights Reserved.
 
-Copyright (c) 2026 Oluwasegun Idowu
+IMPORTANT — PLEASE READ CAREFULLY BEFORE USING THIS SOFTWARE.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software, Bankist, is a fictitious banking web application created
+strictly for educational and portfolio demonstration purposes. It is NOT
+a real banking product, and it does NOT process, store, or transmit real
+financial data or transactions of any kind.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+─────────────────────────────────────────────
+PERMITTED USES
+─────────────────────────────────────────────
+You MAY:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+- View and study the source code for personal learning purposes.
+- Fork or clone the repository solely for educational exploration.
+- Reference the code structure in academic or portfolio contexts,
+  provided clear and visible credit is given to the original author.
+
+─────────────────────────────────────────────
+PROHIBITED USES
+─────────────────────────────────────────────
+You MAY NOT, under any circumstances:
+
+- Use, adapt, or deploy this software — in whole or in part — to
+  collect, store, process, or transmit real user financial data,
+  banking credentials, PINs, or any personally identifiable information.
+- Impersonate a legitimate financial institution or banking service
+  using this codebase or any derivative of it.
+- Deploy this application to deceive, defraud, phish, or mislead
+  any individual or organisation into believing it is a real bank.
+- Sell, sublicense, or commercially redistribute this software or
+  any modified version of it without the express written permission
+  of the copyright holder.
+- Use this software in any manner that violates applicable financial
+  regulations, consumer protection laws, or cybercrime legislation
+  in any jurisdiction.
+
+─────────────────────────────────────────────
+DISCLAIMER
+─────────────────────────────────────────────
+THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY, "AS IS",
+WITHOUT WARRANTY OF ANY KIND. THE AUTHOR ACCEPTS NO LIABILITY FOR ANY
+MISUSE, HARM, FINANCIAL LOSS, LEGAL CONSEQUENCE, OR DAMAGE — DIRECT OR
+INDIRECT — ARISING FROM THE UNAUTHORISED OR IRRESPONSIBLE USE OF THIS
 SOFTWARE.
+
+MISUSE OF THIS SOFTWARE TO COMMIT FRAUD, PHISHING, IDENTITY THEFT, OR
+ANY OTHER FINANCIAL CRIME IS A SERIOUS CRIMINAL OFFENCE AND WILL BE
+REPORTED TO THE APPROPRIATE AUTHORITIES.
+
+─────────────────────────────────────────────
+ATTRIBUTION
+─────────────────────────────────────────────
+Any permitted use of this software must retain this license notice in
+full and visibly credit the original author:
+
+Oluwasegun Idowu — https://github.com/damistacks
+
+By accessing, cloning, or using any part of this repository, you
+acknowledge that you have read, understood, and agree to be bound by
+the terms of this license.
